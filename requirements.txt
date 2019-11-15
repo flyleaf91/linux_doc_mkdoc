@@ -1,4 +1,4 @@
-mkdocs-pdf-export-plugin
+#mkdocs-pdf-export-plugin
 mkdocs-bootstrap4
 mkdocs-bootstrap
 mkdocs-material
