@@ -1,3 +1,15 @@
 site_name: 野火开源图书专栏
 
-theme: readthedocs
+theme: 
+#  name: readthedocs
+  name: bootstrap
+#  name: bootstrap4
+#  name: material
+
+
+plugins:
+  - search
+  - pdf-export
+    verbose: true
+    media_type: print
+    enabled_if_env: ENABLE_PDF_EXPORT
